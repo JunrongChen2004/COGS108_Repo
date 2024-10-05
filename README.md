@@ -42,3 +42,9 @@ To run the model with **GloVe embeddings**, use the following command:
 ```bash
 python main.py --model DAN
 ```
+## Key Files
+- **main.py**: The main script that handles training and evaluation of the model.
+- **DANmodels.py**: Contains the implementation of the DAN model, with both GloVe and random embedding options.
+- **BOWmodels.py**: Implements a simple bag-of-words model for comparison.
+- **utils.py**: Contains helper functions, including loading pre-trained embeddings (e.g., GloVe).
+- **sentiment_data.py**: Responsible for loading and preprocessing the dataset.
