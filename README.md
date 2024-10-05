@@ -25,3 +25,18 @@ Install the required packages using `pip`:
 ```bash
 pip install torch numpy
 
+## Dataset
+
+The input data is in the form of text files (e.g., `train.txt`, `dev.txt`) where each line contains a sentiment label (0 or 1) followed by a review sentence, separated by a tab (`\t`). An example line might look like this:
+
+
+## Usage
+
+To run the model, you can specify the desired settings using the command-line arguments. The main script is `main.py`.
+
+### Running the Model
+
+To run the model with **GloVe embeddings**, use the following command:
+
+```bash
+python main.py --model DAN --embedding glove
