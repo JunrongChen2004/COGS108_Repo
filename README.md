@@ -40,4 +40,5 @@ To run the model, you can specify the desired settings using the command-line ar
 To run the model with **GloVe embeddings**, use the following command:
 
 ```bash
-python main.py --model DAN --embedding glove
+python main.py --model DAN
+```
