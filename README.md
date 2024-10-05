@@ -23,7 +23,7 @@ This project implements a **Deep Averaging Network (DAN)** for sentiment analysi
 Install the required packages using `pip`:
 
 ```bash
-pip install torch numpy
+pip install torch numpy```
 
 ## Dataset
 
